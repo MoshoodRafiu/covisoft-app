@@ -1,6 +1,6 @@
 <template>
   <div class="app-section light row">
-      <div class="col-12">
+      <div class="col-12 p-0">
         <div class="app-section-title dark">Recent Blog Posts</div>
       </div>
       <app-blog-post v-for="post in posts" :key="post.title"
