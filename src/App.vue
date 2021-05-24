@@ -31,4 +31,16 @@
     width: 100%;
     overflow-x: hidden;
   }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--black);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--purple);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--purple-hover);
+  }
 </style>

@@ -89,7 +89,7 @@
     height: 4px;
     background: var(--white);
     border-radius: 5px;
-    margin: 3px;
+    margin: 5px;
   }
   .toggle .line-1{
     width: 30px;

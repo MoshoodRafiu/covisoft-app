@@ -6,7 +6,6 @@
           <span class="heavy">Together</span>, let's <span class="heavy">end</span> <br> the virus
         </div>
         <div class="header-info">Let’s all come together to support the health workers and destroy the pandemic</div>
-        <a class="action-button" href="#">Test Now</a>
       </div>
     </div>
     <div class="col-md-6 d-md-block d-none text-right">
@@ -59,6 +58,9 @@
     text-decoration: none;
     color: var(--white);
     background: var(--purple-hover);
+  }
+  .scroll-down img{
+    cursor: pointer;
   }
   @media screen and (max-width: 767px) {
     .header{
