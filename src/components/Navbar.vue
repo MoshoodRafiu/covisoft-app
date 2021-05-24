@@ -1,7 +1,10 @@
 <template>
   <div id="navbar">
     <nav>
-      <a href="#" class="brand-name">COVI<span>SOFT</span></a>
+      <a href="#" class="brand-name">
+        <img :src="'/images/logo.svg'" class="brand-logo" alt="logo">
+        COVI<span>SOFT</span>
+      </a>
       <div>
         <ul>
           <li>
@@ -17,6 +20,10 @@
             <a href="#">Contact Us</a>
           </li>
         </ul>
+        <div class="toggle">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+        </div>
       </div>
     </nav>
   </div>
@@ -46,6 +53,9 @@
     letter-spacing: 1px;
     text-decoration: none;
   }
+  nav .brand-name .brand-logo{
+    width: 40px;
+  }
   nav .brand-name:hover{
     color: var(--purple);
   }
@@ -69,5 +79,42 @@
   nav ul li a:hover{
     text-decoration: none;
     color: var(--purple);
+  }
+  .toggle{
+    padding: 5px;
+    display: none;
+  }
+  .toggle .line-1,
+  .toggle .line-2{
+    height: 4px;
+    background: var(--white);
+    border-radius: 5px;
+    margin: 3px;
+  }
+  .toggle .line-1{
+    width: 30px;
+    margin-left: auto;
+  }
+  .toggle .line-2{
+    width: 20px;
+    margin-left: auto;
+  }
+  @media screen and (max-width: 1000px) {
+    ul{
+      display: none;
+    }
+    .toggle{
+      display: block;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    nav{
+      margin: 40px 50px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    nav{
+      margin: 40px 30px;
+    }
   }
 </style>
