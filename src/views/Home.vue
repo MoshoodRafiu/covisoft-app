@@ -4,6 +4,7 @@
     <app-home-blog/>
     <app-home-testimonies/>
     <app-home-gallery/>
+    <app-home-newsletter/>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import appHomeHeader from '@/components/home/Header';
 import appHomeBlog from '@/components/home/Blog';
 import appHomeTestimonies from '@/components/home/Testimonies';
 import appHomeGallery from '@/components/home/Gallery';
+import appHomeNewsletter from '@/components/home/Newsletter';
 
 export default {
   name: 'Home',
@@ -19,7 +21,8 @@ export default {
     appHomeHeader,
     appHomeBlog,
     appHomeTestimonies,
-    appHomeGallery
+    appHomeGallery,
+    appHomeNewsletter
   }
 }
 </script>
