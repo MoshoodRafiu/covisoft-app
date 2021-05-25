@@ -41,6 +41,7 @@
 <style>
   .app-section{
     padding: 60px 100px;
+    position: relative;
   }
   .app-section.light{
     background: var(--white);
