@@ -100,7 +100,7 @@
     margin-left: auto;
   }
   @media screen and (max-width: 1000px) {
-    ul{
+    nav ul{
       display: none;
     }
     .toggle{

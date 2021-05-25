@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-6 d-flex align-items-center justify-content-center mx-auto">
         <div>
-          <input class="newsletter-form-input" type="text">
+          <input class="newsletter-form-input" placeholder="Email Address" type="text">
         </div>
         <div>
           <button class="newsletter-form-button">Subscribe</button>
