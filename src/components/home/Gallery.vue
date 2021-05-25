@@ -43,7 +43,6 @@
         }
       },
       getPreviousImage(){
-        console.log('Prev')
         if (this.start > 0){
           this.start--;
           this.end--;
@@ -60,7 +59,7 @@
 <style>
   .gallery-image{
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
   .gallery-prev, .gallery-next{
     position: absolute;
