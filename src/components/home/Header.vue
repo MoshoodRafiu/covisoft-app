@@ -7,6 +7,7 @@
         </div>
         <div class="header-info">Let’s all come together to support the health workers and destroy the pandemic</div>
       </div>
+      <a class="action-button text-left" href="#">Take COVID'19 Test</a>
     </div>
     <div class="col-md-6 d-md-block d-none text-right">
       <img class="header-image" :src="'/images/header.jpg'" alt="Header-Image">

@@ -46,8 +46,11 @@
   @media screen and (max-width: 500px) {
     .blog-post{
       margin-bottom: 20px;
-      border-bottom: 1px solid #ccc;
+      border-bottom: 1px solid rgba(204, 204, 204, 0.9);
       padding: 0 0 30px 0 !important;
+    }
+    .blog-post:last-child{
+      border: none !important;
     }
   }
 </style>

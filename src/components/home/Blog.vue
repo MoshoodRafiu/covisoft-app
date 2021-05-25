@@ -1,13 +1,17 @@
 <template>
   <div class="app-section light row">
-      <div class="col-12 p-0">
+      <div class="col-12 app-section-title-wrapper">
         <div class="app-section-title dark">Recent Blog Posts</div>
       </div>
-      <app-blog-post v-for="post in posts" :key="post.title"
-          :author="post.author"
-          :title="post.title"
-          :image-src="post.src"
-      />
+      <div class="col-12">
+        <div class="row">
+          <app-blog-post v-for="post in posts" :key="post.title"
+            :author="post.author"
+            :title="post.title"
+            :image-src="post.src"
+          />
+        </div>
+      </div>
       <div class="col-12 more-post-button text-center">
         <a class="action-button" href="#">More Posts</a>
       </div>
@@ -65,6 +69,9 @@
     }
   }
   @media screen and (max-width: 500px) {
+    .app-section-title-wrapper{
+      padding: 0 !important;
+    }
     .app-section{
       padding: 60px 30px;
     }
